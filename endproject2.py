@@ -53,9 +53,8 @@ def muat_daftar():
         return[]
     except Exception as e:
         print("terjadi kesalahan saat memuat: {}".format(e))
-        
 
-daftar= muat_daftar() 
+daftar= muat_daftar()
 while True:
     tampilan_menu()
     pilihan = int(input("masukan pilihan (1-6): "))
@@ -75,6 +74,3 @@ while True:
         break
     else:
         print("pilihan tidak valid, silahkan coba lagi!")
-
-        
-    
