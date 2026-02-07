@@ -1,0 +1,16 @@
+Kode ini merupakan program utama dari aplikasi Flashcards Trainer.
+File ini menghubungkan seluruh komponen aplikasi, yaitu Deck, Trainer, dan Utils, kemudian menyatukannya dalam satu alur program yang interaktif.
+Saat aplikasi dijalankan, program menampilkan menu utama yang berisi berbagai pilihan fitur. Pengguna dapat menambah flashcard, melihat daftar kartu, melakukan latihan, mengekspor dan mengimpor data, serta keluar dari aplikasi.
+Setiap pilihan menu diproses dalam sebuah perulangan sehingga setelah satu fitur selesai dijalankan, pengguna dapat kembali ke menu utama tanpa harus menjalankan ulang aplikasi. Program juga dilengkapi dengan penanganan kesalahan agar tetap berjalan dengan stabil.
+Secara keseluruhan, file ini berperan sebagai pengendali utama yang mengatur alur kerja dan interaksi pengguna dengan seluruh fitur Flashcards Trainer.
+
+
+
+
+
+Keempat file pada Flashcards Trainer memiliki peran yang saling melengkapi.
+ Class Card berfungsi sebagai representasi satu flashcard, Deck mengelola kumpulan flashcard dan penyimpanan data, Trainer mengatur alur latihan dengan pemilihan kartu secara acak, dan Utils membantu interaksi pengguna serta tampilan aplikasi.
+Dengan pemisahan fungsi ini, aplikasi menjadi lebih terstruktur, mudah dipahami, dan mudah dikembangkan di kemudian hari
+
+
+jdi  disini saya mengubah source menjadi executable file yangb dimana kita bisa menampilkan tanpa membuka vsc(visual studio code)
